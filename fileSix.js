@@ -27,5 +27,10 @@ function crearMensaje(producto) {
 }
 
 
-console.table(etiquetasOfertas);
+function imprimeElementos(producto){
+    for (let x in producto){
+        console.log(producto[x]);
+    }
+}
 
+imprimeElementos(etiquetasOfertas);
