@@ -11,7 +11,7 @@ const inventario = [
 ];
 
 function electronica(producto) {
-    return producto.categoria === "Electrónica";
+    return producto.categoria === "Electrónica" && producto.precio > 0;
 
 }
 
